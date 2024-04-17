@@ -43,3 +43,16 @@
   cursor: pointer;
   border-radius: 5px;
 }
+
+.search-btn:hover
+{
+  background-color: white;
+  color: black;
+}
+
+.parent
+{
+  display: flex;
+  justify-content: center;
+ 
+}

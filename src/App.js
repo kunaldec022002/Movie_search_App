@@ -1,5 +1,5 @@
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import movieTrailer from 'movie-trailer';
 import ReactPlayer from 'react-player';
@@ -21,6 +21,10 @@ function App() {
       setVideoURL(res);
     });
   }
+
+  useEffect (()=>{
+    handleSearch()
+  },[])
   return (
 
     <div className='text-center '>
@@ -43,7 +47,12 @@ function App() {
       </div>
       
 
-      <ReactPlayer  url={videoURL} controls={true}/>
+      <div className='parent'>
+        <div>
+        <ReactPlayer  url={videoURL} controls={true}/>
+      
+        </div>
+      </div>
   
     </div>
   );
