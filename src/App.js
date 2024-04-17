@@ -10,7 +10,7 @@ function App() {
   //react hook 'usestate
 
   const [video , setVideo] = useState('inception');
-  const [videoURL, setVideoURL] = useState('http://youtu.be/sa9l-dTv9Gk');
+  const [videoURL, setVideoURL] = useState('https://www.youtube.com/watch?v=bMknfKXIFA8');
 
   //A function to fetch the required URL
   //and storing it inside the videoURL state variable
@@ -36,7 +36,7 @@ function App() {
           setVideo(e.target.value)
         }}/>
 
-        <button onClick={()=> {
+        <button className='search-btn' onClick={()=> {
           handleSearch()
         }}>Search</button>
 

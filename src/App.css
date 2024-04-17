@@ -13,11 +13,23 @@
 
 .search-box { 
   height: 10vh; 
+
 } 
 
-.search-box>input, 
-button { 
+.search-box>input
+ { 
   box-sizing: border-box; 
   height: 25px; 
   font-size: 20px; 
 } 
+
+.search-btn
+{
+  background-color: black;
+  color: white;
+  margin: 15px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
