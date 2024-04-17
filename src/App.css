@@ -1,4 +1,8 @@
 /* App.css */
+
+.text-center {
+  text-align: center;
+}
   
 .App { 
   display: flex; 
@@ -15,6 +19,12 @@
   height: 10vh; 
 
 } 
+
+.show-video
+{
+  display: block;
+  margin: 0px auto;
+}
 
 .search-box>input
  { 

@@ -23,8 +23,8 @@ function App() {
   }
   return (
 
-    <div>
-      <h1>Movie-Search-App</h1>
+    <div className='text-center '>
+      <h1 className='text-center '>Movie-Search-App</h1>
       
       <div className='search-box'>
 
@@ -43,7 +43,7 @@ function App() {
       </div>
       
 
-      <ReactPlayer url={videoURL} controls={true}/>
+      <ReactPlayer  url={videoURL} controls={true}/>
   
     </div>
   );
